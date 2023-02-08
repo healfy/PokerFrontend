@@ -1,0 +1,42 @@
+
+.tableContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    position: static;
+}
+
+
+.tableGame {
+    width: 938px;
+    height: 490px;
+    background-color: #205826; opacity:.92;;
+    border-radius: 236px;
+    box-shadow: 3px 4px 4px #888888;
+    margin-top: 6%;
+    border: 20px solid #0a0a0a;
+}
+
+.tableGame::before {
+    content: '';
+    border: 19px solid rgba(0, 0, 0, .1);
+    display: block;
+    width: 902px;
+    height: 460px;
+    border-radius: 236px;
+    box-shadow: 1px 0, #888888;
+    position: relative;
+    top: -5px;
+    left: -2px;
+}
+
+.tableCenter {
+    border: 3px solid #5c815c;
+    width: 676px;
+    height: 310px;
+    border-radius: 236px;
+    position: relative;
+    bottom: 400px;
+}

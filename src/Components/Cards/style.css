@@ -1,0 +1,166 @@
+.poker-card {
+    width: 60px;
+    height: 86px ;
+    background-color: #ffffff;
+    box-shadow: 0 0.0625em 0.125em rgba(0, 0, 0, 0.15);
+    border-radius: 0.25em;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+}
+
+.poker-card.v1 {
+    left: 530px;
+}
+
+.poker-card.v2 {
+    left: 602px;
+}
+
+.poker-card.v3 {
+    left: 675px;
+}
+
+.poker-card.v4 {
+    left: 748px;
+}
+
+.poker-card.v5 {
+    left: 822px;
+}
+
+.red {
+    color: red;
+}
+
+.black {
+    color: black;
+}
+
+.blue {
+    color: blue;
+}
+
+.green {
+    color: green;
+}
+
+.poker-card-topleft {
+    position: relative;
+    top: 1px;
+    left: 30px;
+
+}
+.poker-card-bottomright {
+    position: relative;
+    bottom: -14px;
+    right: 0.75em;
+    transform: rotate(180deg);
+}
+.poker-card-corner-rank {
+    font-size: 27px;
+    width: 1em;
+    font-weight: bold;
+    text-align: center;
+    transform: translate(-50%, 0);
+}
+.poker-card-corner-suit {
+    font-size: 32px;
+    line-height: 29px;
+    text-align: center;
+    transform: translate(-50%, 0);
+}
+
+.poker-card:hover {
+    cursor: pointer;
+}
+
+.player-hand {
+    width: 43px;
+    height: 60px;
+    box-shadow: 0 0.0925em 0.125em #798c9f;
+    position: absolute;
+    z-index: 3;
+    top: 28%;
+    border-radius: 0.25em;
+}
+
+.player-hand.hidden {
+    background-color: #3a3b42;
+}
+
+.player-hand.showed {
+    background-color: white;
+    box-shadow: 0 0.0925em 0.125em #000000;
+    font-size: 10px;
+}
+
+.player-hand-rank {
+    font-size: 21px;
+    width: 1em;
+    font-weight: bold;
+    text-align: center;
+    transform: translate(50%, 0);
+}
+.player-hand-suit {
+    font-size: 21px;
+    line-height: 29px;
+    text-align: center;
+    transform: translate(0%, -13%);
+}
+
+.player-hand.seat1.v1 {
+    right: 51%;
+}
+
+.player-hand.seat1.v2 {
+    right: 47%;
+}
+
+.player-hand.seat2 {
+    top:32%
+}
+
+.player-hand.seat2.v1 {
+    right: 25%;
+}
+
+.player-hand.seat2.v2 {
+    right: 29%;
+}
+
+.player-hand.seat3 {
+    top:67%
+}
+
+.player-hand.seat3.v1 {
+    right: 25%;
+}
+
+.player-hand.seat3.v2 {
+    right: 29%;
+}
+
+.player-hand.seat5 {
+    top:32%
+}
+
+.player-hand.seat5.v1 {
+    left: 25%;
+}
+
+.player-hand.seat5.v2 {
+    left: 29%;
+}
+
+.player-hand.seat6 {
+    top:67%
+}
+
+.player-hand.seat6.v1 {
+    left: 25%;
+}
+
+.player-hand.seat6.v2 {
+    left: 29%;
+}

@@ -1,0 +1,4 @@
+export const AUTH_ACTIONS_TYPES = {
+    UPDATE_STATUS: "[AUTH] UPDATE_STATUS",
+    LOGIN: "[AUTH] LOGIN",
+}

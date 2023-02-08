@@ -1,0 +1,62 @@
+.player-card {
+    position: absolute;
+    z-index: 1;
+}
+
+
+.player-card.v1 {
+    top: 20%;
+    left: 51%;
+}
+
+.player-card.v2 {
+    top: 223px;
+    right: 20%;
+}
+
+.player-card.v3 {
+    bottom: 27%;
+    right: 20%;
+}
+
+.player-card.v5 {
+    bottom: 27%;
+    left: 10%;
+}
+
+.player-card.v6 {
+    top: 223px;
+    left: 10%;
+}
+
+.player-card.bank {
+    background-color: #667267;
+    height: 42px;
+    width: 140px;
+    z-index: 1;
+    position: absolute;
+    bottom: -33px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    justify-content: center;
+}
+
+
+.player-card.info {
+    background-color: black;
+    height: 29px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 140px;
+    z-index: 2;
+    bottom: 10%;
+    position: absolute;
+}
+
+.text1 {
+    color: white;
+}
+
+.value {
+    margin-top: 12px;
+}

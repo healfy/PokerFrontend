@@ -1,0 +1,104 @@
+.table_preview {
+    background-color: #4aad4a;
+    width: 600px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 15px solid saddlebrown;
+    box-shadow: 0 7px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.msg {
+    font-size: x-small;
+}
+
+.not_free{
+    background-color: lemonchiffon !important;
+}
+
+.seat {
+    border-radius: 45%;
+    height: 50px;
+    background-color: whitesmoke;
+    text-align: center;
+    box-shadow: 0 5px 0 rgba(0, 0, 0, 0.2);
+    width: 9rem;
+    align-content: center;
+
+}
+
+.seat.s1 {
+    transform: translatex(12%) translatey(-15%);
+}
+
+.seat.s2 {
+    transform: translatex(-50%) translatey(80%);
+}
+
+.seat.s3 {
+    transform: translatex(12%) translatey(200%);
+}
+
+.seat.s4 {
+    transform: translatex(300%) translatey(97%);
+}
+
+.seat.s5 {
+    transform: translatex(350%) translatey(-220%);
+}
+
+.seat.s6 {
+    transform: translatex(300%) translatey(-510%);
+}
+
+
+/*.table1 {*/
+/*    width: 1000px;*/
+/*    height: 400px;*/
+/*    background-color: #4aad4a;*/
+/*    position: absolute;*/
+/*    left: 50%;*/
+/*    top: 50%;*/
+/*    transform: translateX(-50%) translateY(-50%);*/
+/*    border-radius: 150px;*/
+/*    position: relative;*/
+/*    border: 15px solid #a95555;*/
+/*&:before {*/
+/*     content: "";*/
+/*     border: 7px solid rgba(0, 0, 0, 0.1);*/
+/*     display: block;*/
+/*     width: 1015px;*/
+/*     height: 415px;*/
+/*     border-radius: 150px;*/
+/*     position: absolute;*/
+/*     top: -15px;*/
+/*     left: -15px;*/
+/* }*/
+/*&:after {*/
+/*     content: "";*/
+/*     border: 7px solid rgba(0, 0, 0, 0.1);*/
+/*     display: block;*/
+/*     width: 985px;*/
+/*     height: 385px;*/
+/*     border-radius: 130px;*/
+/*     position: absolute;*/
+/*     top: 0;*/
+/*     left: 0;*/
+/* }*/
+/*.card-place {*/
+/*    border: 5px solid #63c763;*/
+/*    height: 100px;*/
+/*    width: 340px;*/
+/*    position: absolute;*/
+/*    border-radius: 10px;*/
+/*    padding: 10px;*/
+/*    top: 50%;*/
+/*    left: 50%;*/
+/*    transform: translateX(-50%) translateY(-50%);*/
+/*    box-sizing: border-box;*/
+/*.card:not(:last-child) {*/
+/*    margin-right: 15px;*/
+/*}*/
+/*}*/
+/*}*/
